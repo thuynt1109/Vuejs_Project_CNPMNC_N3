@@ -6,7 +6,7 @@ import router from './router'
 import 'bootstrap'
 import 'jquery'
 import 'popper.js'
-import home from './components/page/home.vue'
+
 
 Vue.config.productionTip = false
 

@@ -15,6 +15,7 @@ export default new Router({
             // name: 'HelloWorld',
             // component: HelloWorld
             redirect: { path: "home" }
+
         },
         {
             path: '/home',
@@ -42,7 +43,7 @@ export default new Router({
             component: contact
         },
 
-    ]
+    ],
 
-
+    mode: "history"
 })
