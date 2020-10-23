@@ -7,6 +7,8 @@ import checkout from '@/components/page/checkout'
 import contact from '@/components/page/contact'
 import admin_home from '@/components/admin_page/admin_home'
 import admin_product from '@/components/admin_page/admin_products'
+import admin_order from '@/components/admin_page/admin_orders'
+import product_edit from '@/components/admin_page/product_edit'
 
 
 Vue.use(Router)
@@ -53,6 +55,16 @@ export default new Router({
             path: '/admin_product',
             name: 'admin_product',
             component: admin_product
+        },
+        {
+            path: '/admin_order',
+            name: 'admin_order',
+            component: admin_order
+        },
+        {
+            path: '/product_edit',
+            name: 'product_edit',
+            component: product_edit
         },
 
     ],
