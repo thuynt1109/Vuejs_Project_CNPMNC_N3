@@ -36,7 +36,7 @@
                             <!-- END CURRENCIES -->
                             <!-- BEGIN LANGS -->
                             <li class="langs-block">
-                                <a href="javascript:void(0);" class="current">English </a>
+                                <a href="javascript:void(0);" class="current">Việt Nam </a>
                                 <div class="langs-block-others-wrapper">
                                     <div class="langs-block-others">
                                         <a href="javascript:void(0);">French</a>
@@ -52,10 +52,9 @@
                     <!-- BEGIN TOP BAR MENU -->
                     <div class="col-md-6 col-sm-6 additional-nav">
                         <ul class="list-unstyled list-inline pull-right">
-                            <li><a href="shop-account.html">My Account</a></li>
-                            <li><a href="shop-wishlist.html">My Wishlist</a></li>
-                            <li><a href="shop-checkout.html">Checkout</a></li>
-                            <li><a href="page-login.html">Log In</a></li>
+                            <li><a href="shop-account.html">Tài khoản</a></li>
+                            <li><a href="shop-checkout.html">Thanh toán</a></li>
+                            <li><a href="page-login.html">Đăng nhập</a></li>
                         </ul>
                     </div>
                     <!-- END TOP BAR MENU -->
@@ -66,7 +65,7 @@
         <!-- BEGIN HEADER -->
         <div class="header">
             <div class="container">
-                <a class="site-logo" href="shop-index.html"><img src="/static/assets/frontend/layout/img/logos/logo-shop-red.png" alt="Metronic Shop UI"></a>
+                <a class="site-logo" href="shop-index.html"><img src="/static/assets/frontend/layout/img/logos/logo1.png" alt="Metronic Shop UI"></a>
 
                 <a href="javascript:void(0);" class="mobi-toggler"><i class="fa fa-bars"></i></a>
 
@@ -151,20 +150,20 @@
                 <div class="header-navigation">
                     <ul>
                         <li class="dropdown">
-                            <router-link to="/home " class="dropdown-toggle">Trang chủ</router-link>
+                            <router-link to="/home" class="dropdown-toggle">Trang chủ</router-link>
                         </li>
                         <li class="dropdown dropdown-megamenu">
-                            <router-link to="/shop " class="dropdown-toggle">Cửa hàng</router-link>
+                            <router-link to="/shop" class="dropdown-toggle">Cửa hàng</router-link>
                         </li>
                         <li>
-                            <router-link to="/cart " class="dropdown-toggle">Giỏ hàng</router-link>
+                            <router-link to="/cart" class="dropdown-toggle">Giỏ hàng</router-link>
                         </li>
                         <li class="dropdown dropdown100 nav-catalogue">
-                            <router-link to="/checkout " class="dropdown-toggle">Thanh toán</router-link>
+                            <router-link to="/checkout" class="dropdown-toggle">Thanh toán</router-link>
 
                         </li>
                         <li class="dropdown">
-                            <router-link to="/contact " class="dropdown-toggle">Liên hệ</router-link>
+                            <router-link to="/contact" class="dropdown-toggle">Liên hệ</router-link>
                         </li>
 
                         <!-- BEGIN TOP SEARCH -->

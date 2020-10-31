@@ -1,6 +1,6 @@
 @media print {
   body {
-    background-color: #fff !important;
+    background-color: #F4D9D9 !important;
   }
 
   .page-header {
@@ -67,7 +67,7 @@ body {
 }
 
 /******
-General 
+General
 ******/
 /* Theme Font Color */
 .theme-font {
@@ -97,7 +97,7 @@ General
 }
 
 /******
-Page Header 
+Page Header
 ******/
 .page-header {
   background-color: white;
@@ -430,7 +430,7 @@ Page Header
 }
 
 /******
-Page Footer 
+Page Footer
 ******/
 .page-prefooter {
   background: #48525e;
@@ -1485,7 +1485,7 @@ Page Header
     display: none;
   }
 }
-/***  
+/***
 Pace - Page Progress
 ***/
 .pace .pace-progress {
@@ -1823,8 +1823,8 @@ Theme Panel
     width: 105px !important;
   }
 }
-/***  
-Page Loading    
+/***
+Page Loading
 ***/
 .page-on-load {
   background: #fefefe;

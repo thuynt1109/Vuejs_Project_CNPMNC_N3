@@ -1,6 +1,6 @@
 @media print {
     body {
-        background-color: #fff !important;
+        background-color: #F4D9D9 !important;
     }
     .page-bar {
         display: none;
@@ -86,9 +86,13 @@ Page Header
 }
 
 .page-header.navbar .page-logo .logo-default {
-    margin: 16px 0 0 0;
+    margin: 6px 0 2px 0;
 }
 
+.size-logo {
+  height: 35px;
+  width: 100px;
+}
 .page-header.navbar .page-logo .logo-mini {
     display: none;
     margin-left: 5px;
@@ -793,7 +797,7 @@ Horizontal Menu
         padding-left: 0px !important;
     }
     .page-header.navbar .page-logo img {
-        margin-left: 4px !important;
+        margin-left: -14px !important;
     }
     .page-header.navbar .menu-toggler.sidebar-toggler {
         display: none !important;
@@ -2449,7 +2453,7 @@ Page content
 }
 
 .page-container-bg-solid .page-content {
-    background: #f1f3fa;
+    background: #f2faf1;
 }
 
 .page-full-width .page-content {

@@ -14,7 +14,8 @@ import product_edit from '@/components/admin_page/product_edit'
 Vue.use(Router)
 
 export default new Router({
-    routes: [{
+    routes: [
+        {
             path: '/',
             // name: 'HelloWorld',
             // component: HelloWorld
@@ -24,48 +25,50 @@ export default new Router({
         {
             path: '/home',
             name: 'home',
-            component: home
+            component: home,
+
         },
         {
             path: '/shop',
             name: 'shop',
-            component: shop
+            component: shop,
         },
         {
             path: '/cart',
             name: 'cart',
-            component: cart
+            component: cart,
         },
         {
             path: '/checkout',
             name: 'checkout',
-            component: checkout
+            component: checkout,
         },
         {
             path: '/contact',
             name: 'contact',
-            component: contact
+            component: contact,
         },
         {
             path: '/admin_home',
             name: 'admin_home',
-            component: admin_home
+            component: admin_home,
         },
         {
-            path: '/admin_product',
+            path: '/admin_products',
             name: 'admin_product',
-            component: admin_product
+            component: admin_product,
         },
         {
-            path: '/admin_order',
+            path: '/admin_orders',
             name: 'admin_order',
-            component: admin_order
+            component: admin_order,
         },
         {
-            path: '/product_edit',
+            path: '/product_edits',
             name: 'product_edit',
-            component: product_edit
+            component: product_edit,
         },
+
 
     ],
 
